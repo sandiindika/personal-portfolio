@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Meta tags -->
+        <title>Sandi Indika S - Portfolio</title>
+        <meta name="title" content="Sandi Indika S - Portfolio">
+        <meta name="description" content="This is a personal portfolio made by codewithsadee">
+
+        <!-- Favicon -->
+        <link rel="icon" href="./assets/favicon.ico">
+
+        <!-- Google web fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+        <!-- Material icon link -->
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+
+        <!-- Custom css link -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <!-- Top bar -->
+        <header class="topbar">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo_dark.png" alt="Sansfolio" width="68" height="32" class="dark">
+                <img src="./assets/images/logo_light.png" alt="Sansfolio" width="68" height="32" class="light">
+            </a>
+
+            <button class="icon-btn theme-btn" data-theme-btn>
+                <span class="material-symbols-outlined dark" aria-hidden="true">dark_mode</span>
+                <span class="material-symbols-outlined light" aria-hidden="true">light_mode</span>
+
+                <div class="state-layer"></div>
+            </button>
+        </header>
+        <!-- End top bar -->
+
+        <!-- Main -->
+        <main>
+            <article>
+                <!-- Hero -->
+                <section class="section hero">
+                    <div class="container">
+                        <figure class="hero-banner img-holder" style="--width: 240; --height: 240;">
+                            <img src="./assets/images/profile.jpg" width="240" height="240" alt="Sandi Indika S" class="img-cover">
+                        </figure>
+                        <div class="hero-content">
+                            <span class="label-large section-subtitle">Data Analyst</span>
+                            <h1 class="display-small">Sandi Indika S</h1>
+                            <p class="body-large section-text">
+                                I like Coding.
+                            </p>
+
+                            <div class="btn-wrapper">
+                                <a href="mailto:sandidikaputra@gmail.com" class="chip">
+                                    <span class="material-symbols-outlined" aria-hidden="true">mail</span>
+                                    <span class="label-large">sandidikaputra@gmail.com</span>
+                                    <div class="state-layer"></div>
+                                </a>
+
+                                <a href="https://api.whatsapp.com/send/?phone=6281553833230&text&type=phone_number&app_absent=0" class="chip" target="_blank">
+                                    <span class="material-symbols-outlined" aria-hidden="true">call</span>
+                                    <span class="label-large">+62 8155 3833 230</span>
+                                    <div class="state-layer"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End hero -->
+
+                <!-- Main content -->
+                <div class="article">
+                    <div class="about-card">
+                        <h2 class="card-title title-medium">About Me</h2>
+
+                        <p class="body-medium card-text">
+                            A passionate Data Analyst with a strong background in Computer Science. I like working with new tools and technologies.
+                        </p>
+                        <ul class="about-list">
+                            <li class="list-item">
+                                <span class="material-symbols-outlined" aria-hidden="true">location_on</span>
+                                <span class="label-medium">Surabaya, Indonesia</span>
+                            </li>
+
+                            <!--
+                            <li class="list-item">
+                                <span class="material-symbols-outlined" aria-hidden="true">work</span>
+                                <span class="label-medium">Bimbingin.id</span>
+                            </li>
+                            -->
+                        </ul>
+                    </div>
+                    <div>
+                        <!-- Primary tabs -->
+                        <div class="primary-tabs">
+                            <button class="tab-btn active" data-tab-btn="project">
+                                <span class="tab-text title-small">Projects</span>
+                                <div class="state-layer"></div>
+                            </button>
+
+                            <button class="tab-btn" data-tab-btn="resume">
+                                <span class="tab-text title-small">Resume</span>
+                                <div class="state-layer"></div>
+                            </button>
+
+                            <button class="tab-btn" data-tab-btn="contact">
+                                <span class="tab-text title-small">Contact</span>
+                                <div class="state-layer"></div>
+                            </button>
+                        </div>
+                        <!-- End primary tabs -->
+
+                        <!-- Project -->
+                        <section class="section tab-content active" data-tab-content="project">
+                            <div class="container">
+                                <div class="project-list">
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="./assets/images/project-1.gif" alt="Customer Segmentation" width="334" height="180" class="img-cover">
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Data Storytelling</span>
+                                            <h3 class="title-large card-title">Customer Segmentation</h3>
+                                        </div>
+
+                                        <a href="https://www.kaggle.com/code/ndisan/campaign-retail-kmedoids" class="state-layer" target="_blank"></a>
+                                    </div>
+
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Conversational AI ChatBot" width="334" height="180" class="img-cover">
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Artificial Intelligence</span>
+                                            <h3 class="title-large card-title">Conversational AI ChatBot</h3>
+                                        </div>
+
+                                        <a href="https://www.kaggle.com/code/ndisan/ai-chatbot" class="state-layer" target="_blank"></a>
+                                    </div>
+
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="https://admiral.digital/wp-content/uploads/2022/02/AB-Testing-Blog-Graphic-1.gif" alt="Comparison of Bidding Methods" width="334" height="180" class="img-cover">
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">A/B Testing</span>
+                                            <h3 class="title-large card-title">Comparison of Bidding Methods</h3>
+                                        </div>
+
+                                        <a href="https://www.kaggle.com/code/ndisan/ab-testing" class="state-layer" target="_blank"></a>
+                                    </div>
+
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="https://cdns.klimg.com/resized/646x323/p/headline/sinopsis-titanic-film-romantis-tragis-t-640e39.jpg" alt="Titanic Survival Predictions" width="334" height="180" class="img-cover">
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Machine Learning</span>
+                                            <h3 class="title-large card-title">Titanic Survival Predictions</h3>
+                                        </div>
+
+                                        <a href="https://www.kaggle.com/code/ndisan/titanic-survival-prediction-xgboost" class="state-layer" target="_blank"></a>
+                                    </div>
+
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="https://www.indusind.com/iblogs/wp-content/uploads/Personal-Loan-Faster.jpg" alt="Loan Prediction" width="334" height="180" class="img-cover">
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Data Storytelling</span>
+                                            <h3 class="title-large card-title">Loan Prediction</h3>
+                                        </div>
+
+                                        <a href="https://www.kaggle.com/code/ndisan/loan-prediction-decision-tree" class="state-layer" target="_blank"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End project -->
+
+                        <!-- Resume -->
+                        <section class="section tab-content resume-tab" data-tab-content="resume">
+                            <div class="container">
+                                <h2 class="section-title title-small">Experience</h2>
+                                <ul class="list">
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">Python Programmer, Bimbingin.id</p>
+                                            <span class="label-medium card-subtitle">2021 - 2024</span>
+                                            <span class="body-medium card-text">
+                                                Understanding customer needs and business objectives then creating and implementing technology according to the plan made.
+                                            </span>
+                                        </div>
+                                    </li>
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">Research Assistant, Trunojoyo University of Madura</p>
+                                            <span class="label-medium card-subtitle">2019 - 2022</span>
+                                            <span class="body-medium card-text">
+                                                Have been involved in several research projects or studies in the past.
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <h2 class="section-title title-small">Education and Certification</h2>
+                                <ul class="list">
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">
+                                                Bachelor of Science in Computer Science, Trunojoyo University
+                                            </p>
+                                            <span class="label-medium card-subtitle">2017 - 2024</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">
+                                                Certification in Data Scientist with Python (Rakamin Academy)
+                                            </p>
+                                            <span class="label-medium card-subtitle">2021</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">
+                                                Certificate of Completion Talenta AI Indonesia (Microsoft, Kartu Prakerja, and Mereka)
+                                            </p>
+                                            <span class="label-medium card-subtitle">2024</span>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <h2 class="section-title title-small">Skills and Technologies</h2>
+                                <ul class="resume-bottom-list">
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/icon/html5.svg" width="28" height="28" loading="lazy" alt="HTML5" class="icon">
+                                        <span class="label-medium">HTML5</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/icon/css3.svg" width="28" height="28" loading="lazy" alt="CSS3" class="icon">
+                                        <span class="label-medium">CSS3</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/icon/javascript.svg" width="28" height="28" loading="lazy" alt="JavaScript" class="icon">
+                                        <span class="label-medium">JavaScript</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/icon/python.svg" width="28" height="28" loading="lazy" alt="Python" class="icon">
+                                        <span class="label-medium">Python</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/icon/streamlit.svg" width="28" height="28" loading="lazy" alt="Streamlit" class="icon">
+                                        <span class="label-medium">Streamlit</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/icon/github.svg" width="28" height="28" loading="lazy" alt="GitHub" class="icon">
+                                        <span class="label-medium">GitHub</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/icon/mongoDB.svg" width="28" height="28" loading="lazy" alt="MongoDB" class="icon">
+                                        <span class="label-medium">MongoDB</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/icon/VS_code.svg" width="28" height="28" loading="lazy" alt="VS Code" class="icon">
+                                        <span class="label-medium">VS Code</span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </section>
+                        <!-- End resume -->
+
+                        <!-- Contact -->
+                        <section class="section tab-content contact-tab" data-tab-content="contact">
+                            <div class="container">
+                                <div class="contact-info">
+                                    <h4 class="section-title title-small">Contact Info</h4>
+                                    <ul class="contact-info-list">
+                                        <li class="contact-info-item">
+                                            <div class="icon-box">
+                                                <span class="material-symbols-outlined" aria-hidden="true">mail</span>
+                                            </div>
+                                            <div class="info-content">
+                                                <p class="label-small info-title">Mail Me</p>
+                                                <a href="mailto:sandidikaputra@gmail.com" class="label-small info-text">sandidikaputra@gmail.com</a>
+                                            </div>
+                                        </li>
+
+                                        <li class="contact-info-item">
+                                            <div class="icon-box">
+                                                <span class="material-symbols-outlined" aria-hidden="true">call</span>
+                                            </div>
+                                            <div class="info-content">
+                                                <p class="label-small info-title">Contact Me</p>
+                                                <a href="tel:+2382395632498" class="label-small info-text">+62 8155 3833 230</a>
+                                            </div>
+                                        </li>
+
+                                        <li class="contact-info-item">
+                                            <div class="icon-box">
+                                                <span class="material-symbols-outlined" aria-hidden="true">location_on</span>
+                                            </div>
+                                            <div class="info-content">
+                                                <p class="label-small info-title">Address</p>
+                                                <a href="https://maps.app.goo.gl/J66nmj4vLfSJF35F9" class="label-small info-text" target="_blank">Surabaya, Indonesia</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <h4 class="title-small">Social Info</h4>
+                                    <div class="social-list">
+                                        <a href="https://github.com/sandiindika" class="social-item" target="_blank">
+                                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.184072 10.462C-0.594929 15.368 1.58507 21.285 8.30707 23.468C8.42707 23.49 8.53807 23.5 8.64207 23.5C9.42407 23.5 9.96207 22.918 9.96207 22.2C9.86507 21.677 10.3451 19.558 9.04207 19.843C6.52307 20.379 6.22107 18.972 5.83707 18.236C6.92307 19.63 8.55507 19.595 9.78607 19.055C10.4691 18.755 10.1121 17.991 10.4361 17.712C10.5468 17.6167 10.6273 17.4911 10.6677 17.3507C10.7081 17.2103 10.7065 17.0611 10.6633 16.9216C10.6201 16.782 10.537 16.6581 10.4244 16.5651C10.3117 16.4721 10.1743 16.414 10.0291 16.398C7.71507 16.143 5.57207 15.397 5.57207 11.696C5.57207 9.52797 7.07707 9.33397 6.66207 8.42697C6.64707 8.39397 6.32907 7.67297 6.61707 6.57797C8.03607 6.83997 8.68907 7.85797 9.37007 7.67497C11.0571 7.21497 12.9141 7.21497 14.6001 7.67497C15.3041 7.86397 15.8071 6.87397 17.3381 6.57197C17.7791 8.22597 16.8651 8.62997 17.4411 9.24897C18.0731 9.92897 18.3941 10.752 18.3941 11.696C18.3941 17.26 13.6771 15.653 13.2931 16.916C13.2501 17.0565 13.2495 17.2065 13.2913 17.3474C13.3331 17.4882 13.4155 17.6136 13.5281 17.708C14.1381 18.221 14.0581 19.538 13.9931 20.597C13.9261 21.695 13.8681 22.642 14.4751 23.176C14.6891 23.366 15.0701 23.569 15.7591 23.429C22.3931 21.298 24.5891 15.407 23.8221 10.512C21.7261 -2.85603 2.29607 -2.84003 0.184072 10.462ZM8.45407 21.44L8.45807 21.945C7.95288 21.7709 7.46008 21.5628 6.98307 21.322C7.40807 21.431 7.89607 21.478 8.45407 21.44ZM8.82407 17.74L8.80907 17.82C7.95607 18.072 7.30007 17.821 6.85207 17.068L6.85107 17.066C7.53107 17.43 8.23207 17.626 8.82407 17.74ZM12.0001 1.99997C23.8331 1.99997 26.5021 18.267 15.4691 21.941C15.4311 21.644 15.4661 21.084 15.4901 20.689C15.5481 19.738 15.6161 18.63 15.2771 17.704C20.3651 16.645 20.7901 11.058 18.8311 8.56897C19.0741 7.61697 18.9761 5.37997 18.1021 5.10597C17.8961 5.04097 16.7971 4.80197 14.6651 6.14297C12.9023 5.72648 11.0668 5.72648 9.30407 6.14297C8.24007 5.47597 5.84207 4.39097 5.38207 5.54297C4.84807 6.88497 4.97507 7.96997 5.13407 8.57297C3.39507 10.777 3.91607 14.467 5.66807 16.199C4.67507 15.724 3.30707 15.562 3.01207 16.513C2.68907 17.55 3.92407 17.424 4.69107 19.317C4.76407 19.553 4.89907 19.83 5.10607 20.105C-1.70493 14.54 1.58107 1.99997 12.0001 1.99997Z" style="fill: var(--on-surface-variant)"/>
+                                                <defs>
+                                                    <clipPath id="clip0_66_1649">
+                                                        <rect width="24" height="24" fill="white"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+
+                                        <a href="https://www.kaggle.com/ndisan" class="social-item" target="_blank">
+                                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.285.18.046.149.034.255-.036.315l-6.555 6.344 6.836 8.507c.095.104.117.208.07.358" style="fill: var(--on-surface-variant)"/>
+                                                <defs>
+                                                    <clipPath id="clip0_66_1649">
+                                                        <rect width="24" height="24" fill="white"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-form">
+                                    <h3 class="title-large">Let's Connect.</h3>
+                                    <form action="mailto:sandidikaputra@gmail.com" method="post" enctype="text/plain" class="input-wrapper">
+                                        <input type="text" name="name" placeholder="Your Name" required class="input-field">
+                                        <input type="email" name="email" placeholder="Your Email" required class="input-field">
+                                        <textarea name="message" placeholder="Message" required class="textarea"></textarea>
+
+                                        <button class="btn" type="submit">
+                                            <span class="label-large">Send Message</span>
+                                            <div class="state-layer"></div>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End contact -->
+                    </div>
+                </div>
+                <!-- End main content -->
+            </article>
+        </main>
+        <!-- End main -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p class="body-medium">
+                    Copyright 2024. All right reserved by Sandi Indika S
+                </p>
+            </div>
+        </footer>
+        <!-- End footer -->
+
+        <!-- Custom script -->
+        <script src="./js/script.js"></script>
+
+    </body>
+</html>
